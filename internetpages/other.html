@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- DEVELOPER: MengCheng Wang, IS117-005, Fall 2023 -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>TechSphere</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/nav.css" rel="stylesheet">
+
+    <style>
+
+        .image-container {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 45%; /* Adjust the width as needed */
+            margin: 35px;
+        }
+
+        .img {
+            width: 80%; /* Make images fill the container */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto; /* Center the images within their container */
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-unique navbar-dark
+                    col-12">
+                <!-- Brand -->
+                <a class="navbar-brand"><img src="../images/dragonimg2.jpg" height="60"></a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a href="moderntech.html" class="nav-link dropdown-toggle" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               ModernTech</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Internet &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="../internetpages/searchengines.html" class="dropdown-item">Search Engines</a></li>
+                                        <li><a href="../internetpages/socialmedia.html" class="dropdown-item">Social Media</a></li>
+                                        <li><a href="../internetpages/other.html" class="dropdown-item">Other</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="electronics.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Electronics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Phones &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="../phonepages/apple.html" class="dropdown-item">Apple &raquo;</a>
+                                            <ul class="dropdown-menu submenu multi-menu">
+                                                <li><a href="https://www.apple.com/iphone/compare/" class="dropdown-item">Models</a></li>
+                                            </ul>
+                                            </li>
+                                        <li><a href="../phonepages/samsung.html" class="dropdown-item">Samsung &raquo;</a>
+                                            <ul class="dropdown-menu submenu multi-menu">
+                                                <li><a href="https://www.samsung.com/global/galaxy/compare-smartphones/" class="dropdown-item">Models</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="transportation.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Transportation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../transportationpages/electrictrains.html" class="dropdown-item"> Electric Trains</a>
+                                <li><a href="../transportationpages/electriccars.html" class="dropdown-item"> Electric Cars &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="https://www.tesla.com/" class="dropdown-item">Tesla</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="futuretech.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                FutureTech
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../futuretechpages/aiandgpt.html">AI and ChatGPT</a>
+                                <a class="dropdown-item" href="../futuretechpages/vr.html">Virtual Reality</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Info
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../contactpages/aboutme.html">About Me</a>
+                                <a class="dropdown-item" href="../contactpages/contact.html">Contact Form</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <!-- First Image -->
+
+        <h1 class="sp">Major Modern Technologies (List)</h1>
+
+        <p><strong>1. Artificial Intelligence (AI):</strong> AI involves the development of computer systems that can perform tasks that typically require human intelligence, such as problem-solving, learning, and decision-making.</p>
+    
+        <p><strong>2. Internet of Things (IoT):</strong> IoT refers to the network of interconnected devices embedded with sensors and software, enabling them to exchange data. This technology is widely used in smart homes, healthcare, and industrial applications.</p>
+    
+        <p><strong>3. Blockchain:</strong> Blockchain is a decentralized and distributed ledger technology that ensures secure and transparent transactions. It is the underlying technology for cryptocurrencies like Bitcoin and has applications beyond finance.</p>
+    
+        <p><strong>4. Augmented Reality (AR) and Virtual Reality (VR):</strong> AR overlays digital information onto the real world, enhancing the user's perception, while VR creates a completely immersive digital experience. Both technologies find applications in gaming, education, and business.</p>
+    
+        <p><strong>5. 5G Technology:</strong> The fifth generation of mobile networks, 5G, provides faster internet speeds, low latency, and increased connectivity. It enables advancements in areas like autonomous vehicles, IoT, and augmented reality.</p>
+    
+        <p><strong>6. Biotechnology and CRISPR:</strong> Biotechnology involves the manipulation of biological systems for practical purposes. CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a revolutionary gene-editing technology with applications in medicine, agriculture, and research.</p>
+    
+        <p><strong>7. Quantum Computing:</strong> Quantum computing utilizes the principles of quantum mechanics to perform computations at speeds unimaginable by classical computers. It holds the potential to solve complex problems in fields like cryptography and optimization.</p>
+    
+        <p><strong>8. Renewable Energy Technologies:</strong> Advancements in solar, wind, and other renewable energy technologies contribute to sustainable energy sources, addressing environmental concerns and reducing reliance on fossil fuels.</p>
+    
+        <p><strong>9. Autonomous Vehicles:</strong> Autonomous or self-driving vehicles use AI and sensor technologies to navigate without human intervention. This technology has implications for transportation, logistics, and urban planning.</p>
+    
+        <p><strong>10. Robotics:</strong> Robotics involves the design and creation of robots to perform tasks autonomously or assist humans. Applications range from manufacturing and healthcare to exploration and space missions.</p>
+            
+    </div>
+    <div>
+        <p class="abc2">&nbsp;</p>
+    </div>
+</div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; MengCheng Wang, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

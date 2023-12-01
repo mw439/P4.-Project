@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- DEVELOPER: MengCheng Wang, IS117-005, Fall 2023 -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>TechSphere</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/nav.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-unique navbar-dark
+                    col-12">
+                <!-- Brand -->
+                <a class="navbar-brand"><img src="images/dragonimg2.jpg" height="60"></a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a href="moderntech.html" class="nav-link dropdown-toggle" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               ModernTech</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Internet &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="internetpages/searchengines.html" class="dropdown-item">Search Engines</a></li>
+                                        <li><a href="internetpages/socialmedia.html" class="dropdown-item">Social Media</a></li>
+                                        <li><a href="internetpages/other.html" class="dropdown-item">Other</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="electronics.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Electronics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Phones &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="phonepages/apple.html" class="dropdown-item">Apple &raquo;</a>
+                                            <ul class="dropdown-menu submenu multi-menu">
+                                                <li><a href="https://www.apple.com/iphone/compare/" class="dropdown-item">Models</a></li>
+                                            </ul>
+                                            </li>
+                                        <li><a href="phonepages/samsung.html" class="dropdown-item">Samsung &raquo;</a>
+                                            <ul class="dropdown-menu submenu multi-menu">
+                                                <li><a href="https://www.samsung.com/global/galaxy/compare-smartphones/" class="dropdown-item">Models</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="transportation.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Transportation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="transportationpages/electrictrains.html" class="dropdown-item"> Electric Trains</a>
+                                <li><a href="transportationpages/electriccars.html" class="dropdown-item"> Electric Cars &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="https://www.tesla.com/" class="dropdown-item">Tesla</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="futuretech.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                FutureTech
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="futuretechpages/aiandgpt.html">AI and ChatGPT</a>
+                                <a class="dropdown-item" href="futuretechpages/vr.html">Virtual Reality</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Info
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="contactpages/aboutme.html">About Me</a>
+                                <a class="dropdown-item" href="contactpages/contact.html">Contact Form</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    <div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Welcome to TechSphere</h1>
+              <p class="lead">The Sanctuary of Knowledge</p>
+            </div>
+          </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-2">
+        <div class="col">
+          <div class="card">
+            <img src="homepage pictures/world.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The World</h5>
+              <p class="card-text">What are Search Engines? What is Social Media?</p>
+              <a href="internetpages/searchengines.html" class="btn btn-primary">Visit Page (Search Engines)</a>
+              <a href="internetpages/socialmedia.html" class="btn btn-primary">Visit Page (Social Media)</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="homepage pictures/phone.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Smartphone</h5>
+              <p class="card-text">Apple and Samsung, The Tech Giants</p>
+              <a href="phonepages/apple.html" class="btn btn-primary">Visit Page (Apple)</a>
+              <a href="phonepages/samsung.html" class="btn btn-primary">Visit Page (Samsung)</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="homepage pictures/train.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Electric Trains</h5>
+              <p class="card-text">A Innovation of Incredible Speeds</p>
+              <a href="transportationpages/electrictrains.html" class="btn btn-primary">Visit Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="homepage pictures/tesla.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Electric Cars</h5>
+              <p class="card-text">Tesla, The Modern Vehicle</p>
+              <a href="transportationpages/electriccars.html" class="btn btn-primary">Visit Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="homepage pictures/ai.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ChatGPT and AI</h5>
+                <p class="card-text">The Technology Capable of Changing the World</p>
+                <a href="futuretechpages/aiandgpt.html" class="btn btn-primary">Visit Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="homepage pictures/vr.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Virtual Reality</h5>
+                <p class="card-text">A New Vision for The Future</p>
+                <a href="futuretechpages/vr.html" class="btn btn-primary">Visit Page</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div>
+        <p class="abc2">&nbsp;</p>
+    </div>
+</div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; MengCheng Wang, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

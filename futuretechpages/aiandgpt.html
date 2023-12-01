@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<!-- DEVELOPER: MengCheng Wang, IS117-005, Fall 2023 -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>TechSphere</title>
+
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../styles/main.css" rel="stylesheet">
+    <link href="../styles/nav.css" rel="stylesheet">
+
+    <style>
+
+        .image-container {
+            display: inline-block;
+            box-sizing: border-box;
+            width: 45%; /* Adjust the width as needed */
+            margin: 35px;
+        }
+
+        .img {
+            width: 80%; /* Make images fill the container */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 0 auto; /* Center the images within their container */
+        }
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-unique navbar-dark
+                    col-12">
+                <!-- Brand -->
+                <a class="navbar-brand"><img src="../images/dragonimg2.jpg" height="60"></a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a href="moderntech.html" class="nav-link dropdown-toggle" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                               ModernTech</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Internet &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="../internetpages/searchengines.html" class="dropdown-item">Search Engines</a></li>
+                                        <li><a href="../internetpages/socialmedia.html" class="dropdown-item">Social Media</a></li>
+                                        <li><a href="../internetpages/other.html" class="dropdown-item">Other</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="electronics.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Electronics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Phones &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="../phonepages/apple.html" class="dropdown-item">Apple &raquo;</a>
+                                            <ul class="dropdown-menu submenu multi-menu">
+                                                <li><a href="https://www.apple.com/iphone/compare/" class="dropdown-item">Models</a></li>
+                                            </ul>
+                                            </li>
+                                        <li><a href="../phonepages/samsung.html" class="dropdown-item">Samsung &raquo;</a>
+                                            <ul class="dropdown-menu submenu multi-menu">
+                                                <li><a href="https://www.samsung.com/global/galaxy/compare-smartphones/" class="dropdown-item">Models</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="transportation.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Transportation
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../transportationpages/electrictrains.html" class="dropdown-item"> Electric Trains</a>
+                                <li><a href="../transportationpages/electriccars.html" class="dropdown-item"> Electric Cars &raquo;</a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a href="https://www.tesla.com/" class="dropdown-item">Tesla</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="futuretech.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                FutureTech
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../futuretechpages/aiandgpt.html">AI and ChatGPT</a>
+                                <a class="dropdown-item" href="../futuretechpages/vr.html">Virtual Reality</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Info
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../contactpages/aboutme.html">About Me</a>
+                                <a class="dropdown-item" href="../contactpages/contact.html">Contact Form</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <!-- First Image -->
+        <div>
+            <div>
+                <!-- First Image -->
+                <div class="image-container">
+                    <img class="img p" src="../aiImages/image1.jpg" alt="Image 1">
+                </div>
+                
+                <!-- Second Image -->
+                <div class="image-container">
+                    <img class="img p" src="../aiImages/image2.png" alt="Image 2">
+                </div>
+                
+            </div>
+            <h1 class="sp">AI Overview</h1>
+
+            <p><strong>Definition of AI:</strong> AI refers to the development of computer systems that can perform tasks that typically require human intelligence. This includes tasks such as visual perception, speech recognition, decision-making, and language translation.</p>
+        
+            <p><strong>Types of AI:</strong>
+                <ul>
+                    <li><strong>Narrow AI (Weak AI):</strong> Systems designed and trained for a particular task. Examples include virtual personal assistants (like Siri or Alexa) and image recognition software.</li>
+                    <li><strong>General AI (Strong AI):</strong> Hypothetical systems with the ability to understand, learn, and apply knowledge across diverse tasks, similar to human intelligence. This level of AI is currently theoretical.</li>
+                </ul>
+            </p>
+        
+            <p><strong>Machine Learning (ML):</strong> A subset of AI that focuses on developing algorithms that enable computers to learn from and make predictions or decisions based on data. It includes supervised learning, unsupervised learning, and reinforcement learning.</p>
+        
+            <p><strong>Deep Learning:</strong> A type of machine learning that involves neural networks with many layers (deep neural networks). Deep learning has been particularly successful in tasks such as image and speech recognition.</p>
+        
+            <p><strong>Applications of AI:</strong>
+                <ul>
+                    <li><strong>Natural Language Processing (NLP):</strong> Understanding and generating human language.</li>
+                    <li><strong>Computer Vision:</strong> Teaching machines to interpret and make decisions based on visual data.</li>
+                    <li><strong>Speech Recognition:</strong> Converting spoken language into written text.</li>
+                    <li><strong>Recommendation Systems:</strong> Suggesting products, content, or actions based on user preferences.</li>
+                    <li><strong>Autonomous Vehicles:</strong> Developing self-driving cars and other autonomous systems.</li>
+                </ul>
+            </p>
+        
+            <p><strong>AI in Business:</strong> Many industries leverage AI to enhance efficiency, make data-driven decisions, and automate processes.</p>
+        
+            <p><strong>Ethical Considerations:</strong> Discussions on the ethical implications of AI, including bias in algorithms, privacy concerns, and the impact on jobs.</p>
+        
+            <p><strong>Challenges and Future Trends:</strong> Consideration of challenges facing AI development, such as interpretability of AI models, ethical concerns, and potential societal impacts. Additionally, exploring emerging trends like AI in healthcare, AI ethics, and AI for sustainability.</p>
+        
+            <p><strong>AI Governance and Regulations:</strong> As AI technologies advance, there is a growing need for governance and regulations to ensure responsible and ethical AI development and deployment.</p>
+        
+        </div>
+        <div>
+            <p class="abc2">&nbsp;</p>
+            <p class="abc2">&nbsp;</p>
+        </div>
+</div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; MengCheng Wang, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
